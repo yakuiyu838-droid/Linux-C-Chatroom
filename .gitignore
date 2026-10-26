@@ -1,0 +1,25 @@
+# 1. 忽略编译产生的可执行文件（没有后缀的、绿色的文件）
+server
+client
+server_epoll
+server_m0
+client_m0
+server_m1
+client_m1
+
+# 2. 忽略以前废弃的测试代码（你可以根据实际情况修改名字）
+server_m0.c
+server_m0.h
+server_m1.c
+server_m1.h
+server_m1_test.c
+server_m3.c
+client_m0.c
+client_m0.h
+client_m1.c
+client_m1.h
+client_m1_test.c
+
+# 3. 忽略 VS Code 的配置文件
+*.code-workspace
+.vscode/
